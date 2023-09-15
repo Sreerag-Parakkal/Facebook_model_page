@@ -1,0 +1,314 @@
+.header{
+    background:linear-gradient(#4363a9,#24417a) ;
+    width: 100%;
+    height: 85px;
+}
+body{
+    margin: 0;
+    font-family: Helvetica neue,Helvetica,Arial,sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 35px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+}
+.logotext{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica neue,Helvetica,Arial,sans-serif;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.login-label{
+    color: white;
+    
+}
+.forgottenpage{
+    color: black;
+    font-size: 100px;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-family: Helvetica neue,Helvetica,Arial,sans-serif;
+}
+.login-controls{
+    margin-left: 100px;
+    margin-top: 7px;
+}
+.forgottonpage{
+    color: #9cb4d8;
+    font-size: 13px;
+    font-family: Helvetica neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+
+}
+.login-text{
+    font-size: 12px;
+    color: white;
+    background: #4267b2;
+    border-color: #29487d;
+    border-style: solid;
+    height: 20px;
+    cursor: pointer;
+}
+.login-text:hover{
+    background: #9cb4d8;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+.right-section{
+    width: 39%;
+    float: left;
+    line-height: 15px;
+}
+.main-body{
+    background: linear-gradient(white, #D3D8EF);
+    width: 100%;
+    height: 500px;
+}
+.image{
+    width: 581px;
+}
+.font{
+    font-weight: bold;
+    font-size: 21px;
+}
+.firstname{
+    width: 167px;
+    height: 28px;
+    color: rgb(117, 115, 115);
+    font-size: 17px;
+    border-radius: 4px;
+    border-color: grey;
+    border: solid 1px;
+    border-width: 1.5px
+}
+.surname{
+    width: 167px;
+    height: 28px;
+    color: rgb(117, 115, 115);
+    font-size: 17px;
+    border-radius: 4px;
+    border-color: grey;
+    border: solid 1px;
+    border-width: 1.5px;
+    margin-left: 10px;
+}
+.right-heading{
+    margin-top: 40px
+}
+.mobileoremail{
+    width: 355px;
+    height: 28px;
+    color: rgb(117, 115, 115);
+    font-size: 17px;
+    border-radius: 4px;
+    border-color: grey;
+    border: solid 1px;
+    border-width: 1.5px;
+    margin-top: 10px;
+}
+.password{
+    width: 355px;
+    height: 28px;
+    color: rgb(117, 115, 115);
+    font-size: 17px;
+    border-radius: 4px;
+    border-color: grey;
+    border: solid 1px;
+    border-width: 1.5px;
+    margin-top: 10px;
+}
+.birthday{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: gray;
+    font-weight: 750;
+}
+.dob{
+    margin-top: 7px;
+    border-radius: 4px;
+}
+
+.help{
+    
+    content: '?';
+    font-weight: bold;
+    color: #fff;
+}
+.hint{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px; 
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(65, 63, 63);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 0;
+    font-size: 12px ;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 10%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -1px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(65, 63, 63) transparent transparent;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .gender{
+    color: gray;
+    margin-top: 10px;
+    font-weight: 750;
+    margin-bottom: 5px;
+  }
+  .hint2{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px; 
+  }
+  .tooltip2{
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+  }
+  
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(65, 63, 63);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 0;
+    font-size: 12px ;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip2 .tooltiptext2::after {
+    content: " ";
+    position: absolute;
+    top: 10%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -1px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(65, 63, 63) transparent transparent;
+  }
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+  .termssection{
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+  }
+  .terms{
+    text-decoration: none;
+    color: #4267b2;
+  }
+  .datapolicy{
+    text-decoration: none;
+    color: #4267b2;
+  }
+  .cookiepolicy{
+    text-decoration: none;
+    color: #4267b2;
+  }
+  .sign{
+    text-decoration: none;
+    color: white;
+  }
+  .signup{
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+    width: 150px;
+    color: white;
+    border-color: #42b72a;
+    border-radius: 3px;
+    background: linear-gradient(#42b72a, #00a400);
+    border-style: solid;
+    margin-top: 4px;
+  }
+  .create{
+    text-decoration: none;
+    color: #4267b2;
+  }
+  .pagecreation{
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .topsection{
+    background: white;
+    width: 100%;
+    height: 50px;
+  }
+  .bottomsection{
+    background: white;
+    width: 100%;
+    height: 50px;
+    
+  }
+  .footer{
+    width: 100%;
+    height: 100px;
+  }
+  .leftbottom{
+    width: 50%;
+    height: 50px;
+    background: white;
+    float: left;
+    
+  }
+  .rightbottom{
+    width: 50%;
+    height: 50px;
+    background: white;
+    float: left;
+  }
+  .b-right1{
+    width: 26%;
+    height: 50px;
+    float: left;
+  }
+  .b-right2{
+    width:34%;
+    height: 50px;
+    float: left;
+  }
+  .language{
+      word-spacing: 14px;
+      margin-left: 37px;
+      color: #4267b2;
+  }
